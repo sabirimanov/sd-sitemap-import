@@ -1,0 +1,13 @@
+<form class="form-inline" id="sitemap_form" method="post" enctype="multipart/form-data" action="/sitemap">
+    <label>Import data from sitemap file in XML format</label>
+    <input type="file"  class="btn btn-default" id="xml_file" name="xml_file">
+    <p>Select file to start import</p>
+</form>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#xml_file').on("change",function() {
+        $('#sitemap_form').submit();
+    });
+});
+</script>

@@ -1,0 +1,10 @@
+{
+    "name": "sabirimanov/sd-sitemap-import",
+    "description": "Sitemap importer",
+    "version": "master",
+    "autoload": {
+        "psr-4": {
+            "SnowDogSitemap\\SitemapImporter\\": "/"
+        }
+    }
+}
